@@ -8,7 +8,7 @@
 
 #import "VPAppDelegate.h"
 
-#import "VPMasterViewController.h"
+#import "VPMainVC.h"
 
 @implementation VPAppDelegate
 
@@ -19,9 +19,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    VPMasterViewController *controller = (VPMasterViewController *)navigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
 							

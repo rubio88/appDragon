@@ -10,9 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
-@interface VPMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
-
-@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+@interface VPMainVC : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end
