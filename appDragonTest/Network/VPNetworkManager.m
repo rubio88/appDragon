@@ -67,7 +67,6 @@
                  [self getAvatarWithID:userId succes:^(NSData *image) {
                      resultBlock([responseObject objectForKey:@"profile"], image);
                  }];
-                 
              }
          } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
              NSLog(@"Error: %@", error);
@@ -92,6 +91,8 @@
              resultBlock(imageData);
          } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
              NSLog(@"Error: %@", error);
+             NSData *imageData;
+             resultBlock(imageData);
          }];
 }
 
