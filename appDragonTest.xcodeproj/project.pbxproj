@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C362CFC619A27C530082D720 /* VPLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C362CFC519A27C530082D720 /* VPLoginVC.m */; };
 		C38160FD199BB351000743D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38160FC199BB351000743D5 /* Foundation.framework */; };
 		C38160FF199BB351000743D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38160FE199BB351000743D5 /* CoreGraphics.framework */; };
 		C3816101199BB351000743D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3816100199BB351000743D5 /* UIKit.framework */; };
@@ -16,14 +17,11 @@
 		C381610F199BB351000743D5 /* VPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C381610E199BB351000743D5 /* VPAppDelegate.m */; };
 		C3816112199BB351000743D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3816110199BB351000743D5 /* Main.storyboard */; };
 		C3816115199BB351000743D5 /* appDragonTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3816113199BB351000743D5 /* appDragonTest.xcdatamodeld */; };
-		C3816118199BB351000743D5 /* VPMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C3816117199BB351000743D5 /* VPMainVC.m */; };
+		C3816118199BB351000743D5 /* VPProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C3816117199BB351000743D5 /* VPProfileVC.m */; };
 		C381611D199BB351000743D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C381611C199BB351000743D5 /* Images.xcassets */; };
 		C3816125199BB351000743D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38160FC199BB351000743D5 /* Foundation.framework */; };
 		C3816126199BB351000743D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3816100199BB351000743D5 /* UIKit.framework */; };
 		C3816127199BB351000743D5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3816102199BB351000743D5 /* CoreData.framework */; };
-		C38161D1199E1107000743D5 /* .cocoadocs.yml in Resources */ = {isa = PBXBuildFile; fileRef = C381613B199E1106000743D5 /* .cocoadocs.yml */; };
-		C38161D2199E1107000743D5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C381613C199E1106000743D5 /* .gitignore */; };
-		C38161D3199E1107000743D5 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = C381613D199E1106000743D5 /* .travis.yml */; };
 		C38161D4199E1107000743D5 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3816140199E1106000743D5 /* AFHTTPRequestOperation.m */; };
 		C38161D5199E1107000743D5 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3816142199E1106000743D5 /* AFHTTPRequestOperationManager.m */; };
 		C38161D6199E1107000743D5 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3816144199E1106000743D5 /* AFHTTPSessionManager.m */; };
@@ -33,13 +31,6 @@
 		C38161DA199E1107000743D5 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C381614D199E1106000743D5 /* AFURLRequestSerialization.m */; };
 		C38161DB199E1107000743D5 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C381614F199E1106000743D5 /* AFURLResponseSerialization.m */; };
 		C38161DC199E1107000743D5 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3816151199E1106000743D5 /* AFURLSessionManager.m */; };
-		C38161DD199E1107000743D5 /* AFNetworking.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C3816152199E1106000743D5 /* AFNetworking.podspec */; };
-		C38161DE199E1107000743D5 /* AFNetworking.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = C3816153199E1106000743D5 /* AFNetworking.xcworkspace */; };
-		C38161DF199E1107000743D5 /* CHANGES in Resources */ = {isa = PBXBuildFile; fileRef = C3816154199E1106000743D5 /* CHANGES */; };
-		C38161E0199E1107000743D5 /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = C3816155199E1106000743D5 /* CONTRIBUTING.md */; };
-		C38161F7199E1107000743D5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C3816180199E1107000743D5 /* LICENSE */; };
-		C38161F8199E1107000743D5 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = C3816181199E1107000743D5 /* Rakefile */; };
-		C38161F9199E1107000743D5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C3816182199E1107000743D5 /* README.md */; };
 		C381621F199E1107000743D5 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C38161C1199E1107000743D5 /* AFNetworkActivityIndicatorManager.m */; };
 		C3816220199E1107000743D5 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C38161C3199E1107000743D5 /* UIActivityIndicatorView+AFNetworking.m */; };
 		C3816221199E1107000743D5 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C38161C5199E1107000743D5 /* UIAlertView+AFNetworking.m */; };
@@ -49,6 +40,8 @@
 		C3816225199E1107000743D5 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C38161CE199E1107000743D5 /* UIRefreshControl+AFNetworking.m */; };
 		C3816226199E1107000743D5 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C38161D0199E1107000743D5 /* UIWebView+AFNetworking.m */; };
 		C381623A199E7860000743D5 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = C3816239199E7860000743D5 /* Profile.m */; };
+		C3B2E6C819A366A20066A406 /* VPNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B2E6C719A366A20066A406 /* VPNetworkManager.m */; };
+		C3B2E6CF19A367190066A406 /* VPCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B2E6CE19A367190066A406 /* VPCoreDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C362CFC419A27C530082D720 /* VPLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VPLoginVC.h; path = ../VPLoginVC.h; sourceTree = "<group>"; };
+		C362CFC519A27C530082D720 /* VPLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VPLoginVC.m; path = ../VPLoginVC.m; sourceTree = "<group>"; };
+		C362CFC719A27F530082D720 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		C38160F9199BB351000743D5 /* appDragonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appDragonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38160FC199BB351000743D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C38160FE199BB351000743D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,13 +71,10 @@
 		C381610E199BB351000743D5 /* VPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPAppDelegate.m; sourceTree = "<group>"; };
 		C3816111199BB351000743D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3816114199BB351000743D5 /* appDragonTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appDragonTest.xcdatamodel; sourceTree = "<group>"; };
-		C3816116199BB351000743D5 /* VPMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPMainVC.h; sourceTree = "<group>"; };
-		C3816117199BB351000743D5 /* VPMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPMainVC.m; sourceTree = "<group>"; };
+		C3816116199BB351000743D5 /* VPProfileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPProfileVC.h; sourceTree = "<group>"; };
+		C3816117199BB351000743D5 /* VPProfileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPProfileVC.m; sourceTree = "<group>"; };
 		C381611C199BB351000743D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C3816122199BB351000743D5 /* appDragonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appDragonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C381613B199E1106000743D5 /* .cocoadocs.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .cocoadocs.yml; sourceTree = "<group>"; };
-		C381613C199E1106000743D5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		C381613D199E1106000743D5 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		C381613F199E1106000743D5 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		C3816140199E1106000743D5 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		C3816141199E1106000743D5 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -101,13 +94,6 @@
 		C381614F199E1106000743D5 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		C3816150199E1106000743D5 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		C3816151199E1106000743D5 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		C3816152199E1106000743D5 /* AFNetworking.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AFNetworking.podspec; sourceTree = "<group>"; };
-		C3816153199E1106000743D5 /* AFNetworking.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = AFNetworking.xcworkspace; sourceTree = "<group>"; };
-		C3816154199E1106000743D5 /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
-		C3816155199E1106000743D5 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTING.md; sourceTree = "<group>"; };
-		C3816180199E1107000743D5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C3816181199E1107000743D5 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
-		C3816182199E1107000743D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		C38161C0199E1107000743D5 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
 		C38161C1199E1107000743D5 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
 		C38161C2199E1107000743D5 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -127,6 +113,10 @@
 		C38161D0199E1107000743D5 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		C3816238199E7860000743D5 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
 		C3816239199E7860000743D5 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		C3B2E6C619A366A20066A406 /* VPNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VPNetworkManager.h; path = Network/VPNetworkManager.h; sourceTree = "<group>"; };
+		C3B2E6C719A366A20066A406 /* VPNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VPNetworkManager.m; path = Network/VPNetworkManager.m; sourceTree = "<group>"; };
+		C3B2E6CD19A367190066A406 /* VPCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPCoreDataManager.h; sourceTree = "<group>"; };
+		C3B2E6CE19A367190066A406 /* VPCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPCoreDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +144,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C362CFC319A272810082D720 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C381613A199E1106000743D5 /* AFNetworking-master */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		C38160F0199BB351000743D5 = {
 			isa = PBXGroup;
 			children = (
@@ -186,16 +184,15 @@
 		C3816104199BB351000743D5 /* appDragonTest */ = {
 			isa = PBXGroup;
 			children = (
-				C381613A199E1106000743D5 /* AFNetworking-master */,
+				C3B2E6CA19A366B50066A406 /* Login */,
+				C3B2E6CB19A366C10066A406 /* Profile */,
+				C3B2E6C919A366AB0066A406 /* Network */,
+				C3B2E6CC19A366CF0066A406 /* Model */,
 				C381610D199BB351000743D5 /* VPAppDelegate.h */,
 				C381610E199BB351000743D5 /* VPAppDelegate.m */,
 				C3816110199BB351000743D5 /* Main.storyboard */,
-				C3816116199BB351000743D5 /* VPMainVC.h */,
-				C3816117199BB351000743D5 /* VPMainVC.m */,
 				C381611C199BB351000743D5 /* Images.xcassets */,
-				C3816113199BB351000743D5 /* appDragonTest.xcdatamodeld */,
-				C3816238199E7860000743D5 /* Profile.h */,
-				C3816239199E7860000743D5 /* Profile.m */,
+				C362CFC319A272810082D720 /* Libraries */,
 				C3816105199BB351000743D5 /* Supporting Files */,
 			);
 			path = appDragonTest;
@@ -208,6 +205,7 @@
 				C3816107199BB351000743D5 /* InfoPlist.strings */,
 				C381610A199BB351000743D5 /* main.m */,
 				C381610C199BB351000743D5 /* appDragonTest-Prefix.pch */,
+				C362CFC719A27F530082D720 /* Constants.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -215,17 +213,7 @@
 		C381613A199E1106000743D5 /* AFNetworking-master */ = {
 			isa = PBXGroup;
 			children = (
-				C381613B199E1106000743D5 /* .cocoadocs.yml */,
-				C381613C199E1106000743D5 /* .gitignore */,
-				C381613D199E1106000743D5 /* .travis.yml */,
 				C381613E199E1106000743D5 /* AFNetworking */,
-				C3816152199E1106000743D5 /* AFNetworking.podspec */,
-				C3816153199E1106000743D5 /* AFNetworking.xcworkspace */,
-				C3816154199E1106000743D5 /* CHANGES */,
-				C3816155199E1106000743D5 /* CONTRIBUTING.md */,
-				C3816180199E1107000743D5 /* LICENSE */,
-				C3816181199E1107000743D5 /* Rakefile */,
-				C3816182199E1107000743D5 /* README.md */,
 				C38161BF199E1107000743D5 /* UIKit+AFNetworking */,
 			);
 			path = "AFNetworking-master";
@@ -279,6 +267,45 @@
 				C38161D0199E1107000743D5 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		C3B2E6C919A366AB0066A406 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2E6C619A366A20066A406 /* VPNetworkManager.h */,
+				C3B2E6C719A366A20066A406 /* VPNetworkManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		C3B2E6CA19A366B50066A406 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C362CFC419A27C530082D720 /* VPLoginVC.h */,
+				C362CFC519A27C530082D720 /* VPLoginVC.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		C3B2E6CB19A366C10066A406 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C3816116199BB351000743D5 /* VPProfileVC.h */,
+				C3816117199BB351000743D5 /* VPProfileVC.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		C3B2E6CC19A366CF0066A406 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3816238199E7860000743D5 /* Profile.h */,
+				C3816239199E7860000743D5 /* Profile.m */,
+				C3816113199BB351000743D5 /* appDragonTest.xcdatamodeld */,
+				C3B2E6CD19A367190066A406 /* VPCoreDataManager.h */,
+				C3B2E6CE19A367190066A406 /* VPCoreDataManager.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,19 +385,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38161D3199E1107000743D5 /* .travis.yml in Resources */,
-				C38161F7199E1107000743D5 /* LICENSE in Resources */,
-				C38161D2199E1107000743D5 /* .gitignore in Resources */,
-				C38161E0199E1107000743D5 /* CONTRIBUTING.md in Resources */,
-				C38161DD199E1107000743D5 /* AFNetworking.podspec in Resources */,
-				C38161DF199E1107000743D5 /* CHANGES in Resources */,
-				C38161F9199E1107000743D5 /* README.md in Resources */,
 				C381611D199BB351000743D5 /* Images.xcassets in Resources */,
 				C3816109199BB351000743D5 /* InfoPlist.strings in Resources */,
-				C38161D1199E1107000743D5 /* .cocoadocs.yml in Resources */,
 				C3816112199BB351000743D5 /* Main.storyboard in Resources */,
-				C38161F8199E1107000743D5 /* Rakefile in Resources */,
-				C38161DE199E1107000743D5 /* AFNetworking.xcworkspace in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,18 +408,21 @@
 				C38161D9199E1107000743D5 /* AFURLConnectionOperation.m in Sources */,
 				C3816222199E1107000743D5 /* UIButton+AFNetworking.m in Sources */,
 				C38161D4199E1107000743D5 /* AFHTTPRequestOperation.m in Sources */,
+				C3B2E6CF19A367190066A406 /* VPCoreDataManager.m in Sources */,
 				C38161D7199E1107000743D5 /* AFNetworkReachabilityManager.m in Sources */,
+				C362CFC619A27C530082D720 /* VPLoginVC.m in Sources */,
 				C3816220199E1107000743D5 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				C3816221199E1107000743D5 /* UIAlertView+AFNetworking.m in Sources */,
 				C38161DC199E1107000743D5 /* AFURLSessionManager.m in Sources */,
 				C38161DA199E1107000743D5 /* AFURLRequestSerialization.m in Sources */,
-				C3816118199BB351000743D5 /* VPMainVC.m in Sources */,
+				C3816118199BB351000743D5 /* VPProfileVC.m in Sources */,
 				C38161DB199E1107000743D5 /* AFURLResponseSerialization.m in Sources */,
 				C3816115199BB351000743D5 /* appDragonTest.xcdatamodeld in Sources */,
 				C381623A199E7860000743D5 /* Profile.m in Sources */,
 				C3816226199E1107000743D5 /* UIWebView+AFNetworking.m in Sources */,
 				C38161D5199E1107000743D5 /* AFHTTPRequestOperationManager.m in Sources */,
 				C38161D8199E1107000743D5 /* AFSecurityPolicy.m in Sources */,
+				C3B2E6C819A366A20066A406 /* VPNetworkManager.m in Sources */,
 				C3816223199E1107000743D5 /* UIImageView+AFNetworking.m in Sources */,
 				C3816224199E1107000743D5 /* UIProgressView+AFNetworking.m in Sources */,
 				C381610F199BB351000743D5 /* VPAppDelegate.m in Sources */,
@@ -617,6 +637,7 @@
 				C3816136199BB351000743D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3816137199BB351000743D5 /* Build configuration list for PBXNativeTarget "appDragonTestTests" */ = {
 			isa = XCConfigurationList;
@@ -625,6 +646,7 @@
 				C3816139199BB351000743D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
