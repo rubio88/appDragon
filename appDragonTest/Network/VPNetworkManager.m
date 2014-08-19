@@ -77,6 +77,7 @@
                  succes:(void(^)(NSData *image))resultBlock {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.responseSerializer = [AFImageResponseSerializer serializer];
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"application/json"];
     
     NSDictionary *parameters;
     if (userId != nil) {
